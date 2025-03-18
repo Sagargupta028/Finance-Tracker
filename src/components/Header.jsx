@@ -39,7 +39,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             <a href="#" className="text-sm font-medium hover:text-finance-blue transition-colors">Analytics</a>
           </nav>
           
-          <button 
+{/*           <button 
             onClick={toggleDarkMode}
             className="p-2 rounded-full bg-finance-gray/50 dark:bg-slate-800 hover:bg-finance-gray dark:hover:bg-slate-700 transition-colors"
             aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
@@ -49,7 +49,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             ) : (
               <MoonIcon className="h-5 w-5 text-slate-700" />
             )}
-          </button>
+          </button> */}
           
           <div className="md:hidden">
             <button className="p-2 focus:outline-none">
